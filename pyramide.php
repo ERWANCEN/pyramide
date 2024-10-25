@@ -34,3 +34,17 @@ for ($b = 0; $b <= 19; $b++) { // création d'une boucle for ayant pour conditio
 
     echo "<br>"; // retour à la ligne à la fin de chaque boucle
 }
+
+echo '<h1>Balise Center</h3>';
+
+?>
+<div style = "text-align:center">
+    <?php
+    for($i = 0; $i < 20; $i++){
+        echo '<p style="margin:0;padding:0;">';
+            echo str_repeat(' * ', $i);
+        echo '</p>';
+    }
+
+    ?>
+</div>
